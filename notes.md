@@ -4,10 +4,10 @@ Base Mode Todo List
         [x] App will represents the overall application or site
         [x] GalleryList represents the gallery of images.
         [x] GalleryItem represents a single image in the gallery with the abilit to click and toggle between desription and like an image
-    [ ] Use Axios to retrieve (GET) data from '/gallery' Store it in 'App' with 'props'
+    [x] Use Axios to retrieve (GET) data from '/gallery' Store it in 'App' with 'props'
         [ ] Loop through the list of gallary data
         [ ] Make GalleryItems
-    [ ] Create New Componet 'GalleryItem.jsk'
+    [ ] Create New Componet 'GalleryItem.jsx'
         [ ] Pass it an idividual gallery item with 'props'
         [ ] Update 'GalleryList' to display an Image
         [ ] Swap image with description 'onClick'

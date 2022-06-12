@@ -5,7 +5,6 @@ function GalleryList(){
             <div>
                 <p>Gallery goes here</p>
                 {/* <img src="images/goat_small.jpg"/> */}
-                
                 <img src="images/itachi.webp" />
                 <img src="images/Sauske.png" />
                 <img src="images/Naruto_sage_mode.webp" />
