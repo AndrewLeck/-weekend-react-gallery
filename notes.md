@@ -1,9 +1,9 @@
 Base Mode Todo List
 [ ] Create a photo gallery where Visitors can click on an image to see a description and use a button to "like" an image. 
-    [ ] Create 3 components App, GalleryList, GalleryItem.
-        [ ] App will represents the overall application or site
-        [ ] GalleryList represents the gallery of images.
-        [ ] GalleryItem represents a single image in the gallery with the abilit to click and toggle between desription and like an image
+    [x] Create 3 components App, GalleryList, GalleryItem.
+        [x] App will represents the overall application or site
+        [x] GalleryList represents the gallery of images.
+        [x] GalleryItem represents a single image in the gallery with the abilit to click and toggle between desription and like an image
     [ ] Use Axios to retrieve (GET) data from '/gallery' Store it in 'App' with 'props'
         [ ] Loop through the list of gallary data
         [ ] Make GalleryItems
