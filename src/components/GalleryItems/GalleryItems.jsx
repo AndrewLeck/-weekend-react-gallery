@@ -17,35 +17,39 @@ function toggleImageWithDescription(){
 
     return(
         <>
-            <div className="photo" onClick={() =>{
+            <div className="photo">
+                <div onClick={() =>{
                 toggleImageWithDescription();
             }}>
+                {gallery.title}
                 {(description) ?
                 <div key={gallery.id}> 
                     <img src={gallery.path}/>
                 </div> : <p className="description">{gallery.description}</p>
+                
                 }
+                </div>
                 {/* If I have my Like button here. Whenever I click the like button the discription appears and the photo disapears. 
                 Formatting wise I like the button here but I'm not sure why its displaying the discription when I click the button */}
                 
-                {/* <div>
+                <div>
                     <button 
                     onClick={() => {
                         likeTheImage(gallery.id);
                     }}>❤️ This</button>
                     <div>{gallery.likes} People ❤️ this</div>
-                </div> */}
+                </div>
             </div>
 
             {/* If I put my Button down here then I dont have a fortmation issue.
              However, I couldnt figure out how to make it appear like the wirframe mock ups */}
-            <div>
+            {/* <div>
                 <button 
                 onClick={() => {
                     likeTheImage(gallery.id);
                 }}>❤️ This</button>
                 <div>{gallery.likes} People ❤️ this</div>
-            </div> 
+            </div>  */}
         </>
     )
 }
