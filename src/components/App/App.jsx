@@ -25,6 +25,20 @@ useEffect(() =>{
       console.log('failed to GET data', err)
     })
   }
+  function likeTheImage(id){
+    console.log('In LikeTheImage')
+    axios({
+      url:`gallery/like/${id}`,
+      method:'PUT'
+    })
+    .then((results) => {
+      console.log('PUT sucessfull', results.data)
+      getGalleryList()
+    })
+    .catch((err) => {
+      console.log('PUT failed', err)
+    })
+  }
 
     return (
       <div className="App">
@@ -32,7 +46,7 @@ useEffect(() =>{
           <h1 className="App-title">Gallery of My Life</h1>
         </header>
           <div>
-            <GalleryList GalleryList={galleryItems}/>
+            <GalleryList GalleryList={galleryItems} likeTheImage={likeTheImage}/>
           </div>
       </div>
     );

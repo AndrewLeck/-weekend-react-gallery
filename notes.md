@@ -10,11 +10,11 @@ Base Mode Todo List
     [x] Create New Componet 'GalleryItem.jsx'
         [x] Pass it an idividual gallery item with 'props'
         [x] Update 'GalleryList' to display an Image
-        [ ] Swap image with description 'onClick'
-        [ ] Create a like button
-        [ ] Display the number of likes for each item
-        [ ] When like button is clicked use Axios to update (PUT) the like count '/gallery/like/id:'
-        [ ] Update the gallery each time a like button is clicked.
+        [x] Swap image with description 'onClick'
+        [x] Create a like button
+        [x] Display the number of likes for each item
+        [x] When like button is clicked use Axios to update (PUT) the like count '/gallery/like/id:'
+        [x] Update the gallery each time a like button is clicked.
 Stretch Goals
 Make sure to complete stretch goals in order
 [ ] Make sure to use new branches for each new feature

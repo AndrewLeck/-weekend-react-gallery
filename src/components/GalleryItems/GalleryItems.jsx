@@ -1,6 +1,6 @@
 import {useState} from 'react';
 
-function GalleryItems({gallery}){
+function GalleryItems({gallery, likeTheImage}){
     console.log('inside Gallery Items')
     let [description, setDescription] = useState(true);
 
@@ -13,16 +13,25 @@ function toggleImageWithDescription(){
         setDescription(false)
     }
 }
+
+
     return(
         <>
             <div onClick={() =>{
                 toggleImageWithDescription();
             }}>
-               
-               {(description) ?  <div key={gallery.id}>
+                {(description) ?
+                <div key={gallery.id}> 
                     <img src={gallery.path}/>
-                </div> : <p class="description">{gallery.description}</p>
+                </div> : <p className="description">{gallery.description}</p>
                 }
+            </div>
+            <div>
+                <button 
+                onClick={() => {
+                    likeTheImage(gallery.id);
+                }}>Like❤️</button>
+                <div>Likes: {gallery.likes}</div>
             </div>
         </>
     )

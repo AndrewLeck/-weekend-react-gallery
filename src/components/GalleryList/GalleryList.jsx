@@ -1,6 +1,6 @@
 import GalleryItems from "../GalleryItems/GalleryItems"
 
-function GalleryList({GalleryList}){
+function GalleryList({GalleryList, likeTheImage}){
     console.log('Inside GalleryList');
     return (
         <>
@@ -8,7 +8,7 @@ function GalleryList({GalleryList}){
                 <p>Gallery goes here</p>
              {GalleryList.map((gallery) => {
                  return (
-                     <GalleryItems gallery={gallery} />
+                     <GalleryItems gallery={gallery} likeTheImage={likeTheImage}/>
                  )
              })}
             </div>
