@@ -5,7 +5,7 @@ function GalleryList({GalleryList, likeTheImage}){
     return (
         <>
             <div>
-                <p>Naruto Characters</p>
+                <h2>Naruto Characters</h2>
              {GalleryList.map((gallery) => {
                  return (
                      <GalleryItems key={gallery.id} gallery={gallery} likeTheImage={likeTheImage}/>

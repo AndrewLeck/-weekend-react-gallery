@@ -34,6 +34,7 @@ img {
    display: inline-flex;
    flex-direction:column;
    align-items: center;
+   background-color: cornsilk;
 }
 body{
   background: rgb(0, 137, 137);
