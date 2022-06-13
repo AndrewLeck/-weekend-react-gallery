@@ -17,7 +17,7 @@ function toggleImageWithDescription(){
 
     return(
         <>
-            <div onClick={() =>{
+            <div className="photo" onClick={() =>{
                 toggleImageWithDescription();
             }}>
                 {(description) ?
@@ -27,12 +27,13 @@ function toggleImageWithDescription(){
                 }
             </div>
             <div>
-                <button 
-                onClick={() => {
-                    likeTheImage(gallery.id);
-                }}>Like❤️</button>
-                <div>Likes: {gallery.likes}</div>
+                    <button 
+                    onClick={() => {
+                        likeTheImage(gallery.id);
+                    }}>Like❤️</button>
+                    <div>Likes: {gallery.likes}</div>
             </div>
+            
         </>
     )
 }
