@@ -6,10 +6,10 @@ Base Mode Todo List
         [x] GalleryItem represents a single image in the gallery with the abilit to click and toggle between desription and like an image
     [x] Use Axios to retrieve (GET) data from '/gallery' Store it in 'App' with 'props'
         [x] Loop through the list of gallary data
-        [ ] Make GalleryItems
-    [ ] Create New Componet 'GalleryItem.jsx'
-        [ ] Pass it an idividual gallery item with 'props'
-        [ ] Update 'GalleryList' to display an Image
+        [x] Make GalleryItems
+    [x] Create New Componet 'GalleryItem.jsx'
+        [x] Pass it an idividual gallery item with 'props'
+        [x] Update 'GalleryList' to display an Image
         [ ] Swap image with description 'onClick'
         [ ] Create a like button
         [ ] Display the number of likes for each item
