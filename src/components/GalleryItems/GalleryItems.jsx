@@ -27,6 +27,7 @@ function toggleImageWithDescription(){
                 }
                 {/* If I have my Like button here. Whenever I click the like button the discription appears and the photo disapears. 
                 Formatting wise I like the button here but I'm not sure why its displaying the discription when I click the button */}
+                
                 {/* <div>
                     <button 
                     onClick={() => {
